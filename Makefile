@@ -34,4 +34,3 @@ $(SRC_DIR)/%.o: $(SRC_DIR)/%.c $(HEADERS)
 .PHONY: clean
 clean:
 	rm -f $(EXEC) $(SRC_DIR)/*.o
-
